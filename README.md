@@ -43,5 +43,13 @@ https://trello.com/b/Js0U4iu3/movie-project
    - Display a list of movies that the actor participated in.
 9. Bookmarked Page:
    - Retrieve and display a list of bookmarked movies.
+
+
+
+
+
+
+
+   
 10. Deployment:
     - Deploy the project to GitHub.io or Netlify.

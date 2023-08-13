@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: #514a4a;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background: url(https://th.bing.com/th/id/R.0855e2b1a2f57a9a52a8bf179c0c2e0c?rik=qySwmble12n%2bDQ&riu=http%3a%2f%2fimages2.fanpop.com%2fimage%2fphotos%2f14100000%2fMonica-Bellucci-monica-bellucci-14168804-1600-1200.jpg&ehk=uOdhx0pe6fdygzdTPspklfCs0H6JJv5aDsB7JmBO1fI%3d&risl=&pid=ImgRaw&r=0)
+    no-repeat center center/cover;
+}
+nav {
+  display: flex;
+  /* position: relative; */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 5px 25px -2px #da90c5;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(180deg, transparent, #470935);
+  z-index: -1;
+  width: 100%;
+  height: 10%;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+
+header video {
+  position: absolute;
+  width: 120%;
+  height: 190%;
+  top: -45%;
+  z-index: -1;
+}
+
+nav .logo_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav .logo_ul img {
+  width: 90px;
+}
+
+ nav .logo_ul ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav .logo_ul ul li {
+  padding: 3px 15px;
+}
+nav .logo_ul ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: bold;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.logo_ul a:hover {
+  color: #920699;
+  cursor: pointer;
+}
+
+nav #search {
+  padding: 3px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: rgba(199, 183, 183, 0.4);
+  color: azure;
+  margin-right: 20px;
+}
+header nav #search::placeholder {
+  color: azure;
+}
+.section-type {
+  color: #920699;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.5s;
+}
+section:hover {
+  color: #da90c5;
+  transform: scale(1, 1);
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+  color: #ffaae7;
+  justify-content: center;
+}
+footer li{
+  display: inline;
+  justify-content: center;
+}
